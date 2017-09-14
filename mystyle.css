@@ -10,16 +10,12 @@ div#header h1 {
     text-shadow: 10px 10px 10px #F44336;
 }
 
-;
-}
 
 div#main {
     
     width: 1000px;
     margin: 0px auto;
-    box-shadow: 0px 0px 50px red;
-    opacity: 0.5;
-    
+    box-shadow: 0px 0px 50px red;    
 }
 
 
@@ -27,7 +23,6 @@ div#header{
     
     width: 100%;
     background-color: green;
-    //opacity: 0,5;
     height: 300px;
     float: left;
     background-image:url(soldier.jpg);
@@ -46,9 +41,7 @@ div#sidebar a:hover {
 div#sidebar{
     
     width: 25%;
-    //background-color: darkolivegreen;
     float: left;
-    // rgbaborder: solid 8px grey;
     
     
 }
@@ -57,7 +50,7 @@ div#sidebar{
 div#content {
     
     width: 75%;
-    background-color rgba (255,255,255,0.5);
+    background-color: rgba(255,255,255,0.2);
     float: right;
     
 }
@@ -121,7 +114,7 @@ div#footer {
 }
 
 
-div#footer :hover  {
+div#footer:hover  {
     
     background-color: crimson;
 }
@@ -130,7 +123,7 @@ div#footer :hover  {
 body {
     
     margin: 0px;
-    background-image: url(military_camouflage_patterns-wallpaper-2560x1024.jpg)
+    background-image: url(military_camouflage_patterns-wallpaper-2560x1024.jpg);
 }
 
 div#sidebar a {
@@ -172,5 +165,31 @@ div.fixed {
     border: 4px solid white;
 }
 
+div#content img.pistolet  {
     
+    width: 300px;
+    float: left;
+    margin: 25px;
+}
 
+div#content p.sig {
+    
+    text-indent: 20px;
+    text-align: justify;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+
+div#content img.mp5 {
+    
+    width: 300px;
+    float: right;
+    margin: 25px;
+}
+
+div#content p.mp {
+    
+    color: gray;
+    word-spacing: 0px;
+    text-align: left;
+}
