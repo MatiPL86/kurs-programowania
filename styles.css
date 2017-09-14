@@ -1,0 +1,74 @@
+body {
+    background-color: #00ffff;
+} 
+
+
+h1, h2, h3 {
+    color: white;
+}
+        
+img {
+        width: 400px;
+        height: 400px;
+     }
+        
+
+p. zieloni {
+            color: white;
+        }
+        
+p#obrazek {
+            text-align: center;
+            width: 150px;
+            height: 250px;
+        }
+        
+ol {
+        color: red;
+    }
+        
+ul {
+         color: brown;
+    }
+p#lista zakupow {
+    text-align: center;
+}
+
+body#zolty{
+    background-color: yellow
+}
+
+div#kwadrat{
+    width: 400px;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 10px 30px 20px 40px;
+    border: double 20px;
+    background-image: url(djbobo_31.jpg);
+    background-position: center;
+    border-radius: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: visible;
+    }
+
+td {
+    border: 2px solid
+}
+ 
+th {
+    border: 2px solid;
+   
+    }
+
+td:hover {
+    background-color: darkviolet;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: grey
+}
+
